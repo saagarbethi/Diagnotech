@@ -1,6 +1,4 @@
-@Library('stratusjenkins-sharedlibrary') _
 
-import com.albertsons.stratus.jenkins.MsgLogger
 
 sourceCodePipeline([buildNode: 'pcf-build-node']) {
 
